@@ -1,3 +1,8 @@
+2026-03-08 Tz-Huan Huang <tzhuan@gmail.com>
+
+	* configure.ac: Version 1.4.0
+	* configure.ac: Support anthy-unicode, thanks to Takao Fujiwara
+
 2010-05-19 Takuro Ashie <ashie@homa.ne.jp>
 
 	* data/atok.sty: Assign Control + N key to CommitSelectedSegmentKey.
@@ -24,7 +29,7 @@
 
 	* src/scim_anthy_factory.cpp, src/scim_anthy_imengine.cpp,
 	  src/scim_anthy_prefs.cpp:
-	Fix typo. Thanks Malcolm Parsons and Ikuya Awashiro. 
+	Fix typo. Thanks Malcolm Parsons and Ikuya Awashiro.
 
 2008-02-29 Takuro Ashie <ashie@homa.ne.jp>
 
@@ -388,7 +393,7 @@
 
 	* src/scim_anthy_tray.cpp, src/scim_anthy_tray.h,
 	  src/scim_anthy_imengine.cpp, src/scim_anthy_helper.cpp,
-	  src/scim_anthy_const.h:	
+	  src/scim_anthy_const.h:
 	The skelton of right click menu for the tray icon.
 
 2006-12-27  Takashi Nakamoto  <bluedwarf@bpost.plala.or.jp>
@@ -407,8 +412,8 @@
 2006-12-24  Takashi Nakamoto  <bluedwarf@bpost.plala.or.jp>
 
 	* src/scim_anthy_tray.cpp, src/scim_anthy_tray.h,
-	  src/scim_anthy_imengine.cpp, src/scim_anthy_imengine.h, 
-	  src/scim_anthy_helper.cpp, src/scim_anthy_helper.h, 
+	  src/scim_anthy_imengine.cpp, src/scim_anthy_imengine.h,
+	  src/scim_anthy_helper.cpp, src/scim_anthy_helper.h,
 	  src/scim_anthy_preedit.h, src/scim_anthy_key2kana_table.h,
 	  src/scim_anthy_const.h, src/Makefile.am:
 	Reduce the number of tray icons to one.
@@ -562,7 +567,7 @@
 	  src/scim_anthy_imengine.cpp, src/scim_anthy_prefs.h:
 	Enable to launch a dictionary tool with yomi option as a
 	result of CodeFest Kyoto 2006.
-	https://members.fsij.org/trac/codefest2006kyoto/wiki	
+	https://members.fsij.org/trac/codefest2006kyoto/wiki
 
 2006-09-29 Takuro Ashie <ashie@homa.ne.jp>
 
@@ -732,7 +737,7 @@
 2006-03-29 Takuro Ashie <ashie@homa.ne.jp>
 
 	* configure.ac: Version-1.0.0.
-	
+
 2006-03-29 Takuro Ashie <ashie@homa.ne.jp>
 
         * src/scim_anthy_imengine.cpp: Don't activate direct select key when
@@ -1175,7 +1180,7 @@
 2005-10-14 Takuro Ashie <ashie@homa.ne.jp>
 
 	* src/scim_anthy_factory.cpp, src/scim_anthy_prefs.cpp: Fix typo.
-	* po/ja.po: Translate some untranslated messages. 
+	* po/ja.po: Translate some untranslated messages.
 
 2005-10-11 Takuro Ashie <ashie@homa.ne.jp>
 
@@ -1306,7 +1311,7 @@
 2005-08-04 Takuro Ashie <ashie@homa.ne.jp>
 
 	* src/scim_anthy_factory.{cpp,h}, src/scim_anthy_imengine.{cpp,h},
-	  src/scim_anthy_preedit.{cpp,h}, src/scim_anthy_reading.{cpp,h}: 
+	  src/scim_anthy_preedit.{cpp,h}, src/scim_anthy_reading.{cpp,h}:
 	Load custom NICOLA layout. Some minor fix.
 
 2005-08-04 Takuro Ashie <ashie@homa.ne.jp>
@@ -1784,7 +1789,7 @@
 2005-07-06 Takuro Ashie <ashie@homa.ne.jp>
 
 	* src/scim_anthy_factory.cpp, src/scim_anthy_imengine.{cpp,h},
-	  src/scim_anthy_prefs.{cpp,h}: 
+	  src/scim_anthy_prefs.{cpp,h}:
 	Add "Do nothing" action to disable a certain key event such as the space
 	key. It may be needed to use the space key as thumb shift key, or to
 	insert a space at a release event of space key, not a press event.
@@ -2253,7 +2258,7 @@
 	* data/atok.sty: Fix wrong key bindings
 	* src/scim_anthy_imengine.cpp: Bug fixes for committing first or
 	selected segment.
-	
+
 2005-05-29 Takuro Ashie <ashie@homa.ne.jp>
 
 	* data/msime.sty: Fix wrong key bindings.
@@ -2638,13 +2643,13 @@
 	  src/scim_anthy_imengine_factory.h, src/scim_anthy_imengine_setup.cpp,
 	  src/scim_anthy_preedit.cpp, src/scim_anthy_preedit.h,
 	  src/scim_anthy_prefs.h: Added preferences for symbols & numbers width.
-	* po/ja.po: Updated.	
+	* po/ja.po: Updated.
 
 2005-04-20 Takuro Ashie <ashie@homa.ne.jp>
 
 	* src/scim_anthy_imengine.cpp: Refactoring.
 	* src/scim_anthy_prefs.h: Fixed typo.
-	* po/ja.po: Updated.	
+	* po/ja.po: Updated.
 
 2005-04-19 Takuro Ashie <ashie@homa.ne.jp>
 
@@ -2680,12 +2685,12 @@
 	* src/scim_anthy_action.cpp, src/scim_anthy_action.h,
 	  src/scim_anthy_imengine.cpp, src/scim_anthy_imengine.h,
 	Introduced action manager.
-	* po/POTFILES.in, ja.po: Updated.	
+	* po/POTFILES.in, ja.po: Updated.
 
 2005-02-01 Hiroyuki Ikezoe <poincare@ikezoe.net>
 
 	* src/scim_anthy_imengine.cpp:
-	Removed comment lines about commiting the preediting string when 
+	Removed comment lines about commiting the preediting string when
 	focusing out. It should not be so.
 	We need get the event(?) of switching off scim and clear the preedit
 	string at that time.
@@ -2707,13 +2712,13 @@
 
 2005-01-27 Takuro Ashie <ashie@homa.ne.jp>
 
-	* src/scim_anthy_imengine.cpp, src/scim_anthy_imengine.h, 
+	* src/scim_anthy_imengine.cpp, src/scim_anthy_imengine.h,
 	  src/scim_anthy_imengine_setup.cpp, src/scim_anthy_prefs.h, po/ja.po:
 	Added an option to close candidate window on direct selecting.
-	
+
 2005-01-27 Takuro Ashie <ashie@homa.ne.jp>
 
-	* src/scim_anthy_imengine.cpp, src/scim_anthy_imengine.h, 
+	* src/scim_anthy_imengine.cpp, src/scim_anthy_imengine.h,
 	  src/scim_anthy_imengine_setup.cpp, src/scim_anthy_prefs.h, po/ja.po:
 	Enabled to select keys to select candidates directly.
 
@@ -2754,8 +2759,8 @@
 
 	* src/scim_anthy_imengine.cpp:
 	Applied two patches from James Su.
-	It fixed 
-	http://lists.sourceforge.jp/mailman/archives/scim-imengine-dev/2004-December/000041.html 
+	It fixed
+	http://lists.sourceforge.jp/mailman/archives/scim-imengine-dev/2004-December/000041.html
 
 2004-12-02 Hiroyuki Ikezoe <poincare@ikezoe.net>
 
@@ -2811,13 +2816,13 @@
 
 2004-11-27 Hiroyuki Ikezoe <poincare@ikezoe.net>
 
-	* src/scim_anthy_imengine.cpp: pressing space key 
+	* src/scim_anthy_imengine.cpp: pressing space key
 	at the tail of candidates returns the head of the candidates.
 
 2004-11-27 Hiroyuki Ikezoe <poincare@ikezoe.net>
 
 	* src/scim_anthy_imengine.cpp: select next/prev candidate is loop.
-	But there is a bug that pressing space key at the tail of the candidates 
+	But there is a bug that pressing space key at the tail of the candidates
 	cannot be moved at the head of the candidates. Why?
 
 2004-11-26 Takuro Ashie <ashie@homa.ne.jp>
